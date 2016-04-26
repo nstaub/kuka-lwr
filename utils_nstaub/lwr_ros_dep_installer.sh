@@ -14,5 +14,5 @@ fi
 
 echo -e "ROS distros set to: $TMP_DISTRO \n"
 echo -e "sudo needed for apt-get install\n"
-sudo apt-get install ros-$TMP_DISTRO-joint-limits-interface ros-$TMP_DISTRO-control-toolbox ros-$TMP_DISTRO-forward-command-controller ros-$TMP_DISTRO-transmission-interface 
+sudo apt-get install ros-$TMP_DISTRO-joint-limits-interface ros-$TMP_DISTRO-control-toolbox ros-$TMP_DISTRO-forward-command-controller ros-$TMP_DISTRO-transmission-interface ros-$TMP_DISTRO-comtroller-manager
 
