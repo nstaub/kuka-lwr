@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="laas_environment">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!--
+    <model name="pillar">   
+    <pose>0 -1 0.5 90 0 0</pose>
+    <static>false</static>
+    <include>
+      <uri>model://ground_plan</uri>
+    </include>
+    </model>
+    -->
+  </world>
+</sdf>
